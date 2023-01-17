@@ -1,0 +1,117 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap:30px;
+    margin-top: 100px;
+  }
+  .btn1{
+    background-color: transparent;
+    color:green;
+    width: 100px;
+    height:40px ;
+    border-radius: 25px;
+    border: 3px solid green;
+    box-shadow: 3px 3px darkgreen ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .btn2{
+    background-color: transparent;
+    color:red;
+    width: 100px;
+    height:40px ;
+    border-radius: 25px;
+    border: 3px solid red;
+    box-shadow: 3px 3px darkred ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  .col{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  .ro{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    background-color: black;
+    color: white;
+    font-family:"Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    margin-left: 270px;
+}
+.nav-links{
+    list-style-type: none;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+    font-size: 0.4cm;
+}
+h1{
+    margin: 0px 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color:wheat ;
+    color: black;
+    width: 90px;
+    height: 30px;
+    border: black solid 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+#figure{
+  width: 300px; 
+  height: 300px;
+  margin: 50px 650px;
+  background:
+  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><foreignObject width='300px' height='100%'><html xmlns='http://www.w3.org/1999/xhtml'><div style='border:150px solid white; border-bottom:300px solid lime; border-top:unset'></div><div style='border:150px solid transparent; border-bottom:300px solid white; border-top:unset; transform:scale(0.8) translateY(-360px);'></div></html></foreignObject></svg>"),
+  conic-gradient(transparent 75%, darkseagreen 75%);
+  background-blend-mode: screen; 
+}

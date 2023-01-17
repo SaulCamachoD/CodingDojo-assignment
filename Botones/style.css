@@ -1,0 +1,30 @@
+.butthon1{
+    margin: 100px 10px 5px 100px;
+    height: 30px;
+    width: 140px;
+    border: 2px solid #12e0bf;
+    color: #12e0bf;
+    background-color: #F9F9F9;
+    border-radius: 25px;
+    font-size: 0.4cm;
+}
+.butthon2{
+    margin: 10px 10px 5px 100px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #12e0bf;
+    border: 2px solid #12e0bf;
+    font-size: 0.6cm;
+    color: white;
+}
+.butthon3{
+    margin: 10px 10px 5px 100px;
+    height: 40px;
+    width: 190px;
+    color: white;
+    background-color: rgb(77, 130, 228);
+    border:3px solid black;
+    font-size: 0.5cm;
+    box-shadow: 3px 3px black ;
+}

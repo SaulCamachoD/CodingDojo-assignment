@@ -1,0 +1,35 @@
+
+.header{
+    background-color: black;
+    color:aqua;
+    text-align:left;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    
+}
+
+h1{
+    margin: 0px; 
+    padding: 2px 20px ;
+}
+.main{
+    background-color: darkslateblue;
+    color:white;
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    margin: 8px; 
+    padding: 2px 10px ; 
+}
+.end{
+    background-color: lightblue;
+    color:rgb(91, 52, 199);
+    text-align: right;
+    text-decoration: underline;
+    font-family: monospace;
+}
+h3{
+    margin: 8px; 
+    padding: 6px 20px ; 
+}
