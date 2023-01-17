@@ -1,0 +1,297 @@
+/* ----Barra de encabezado---- */
+.header{
+    height: 60px;
+    background-color: black;
+    font-family:"Roboto", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    gap:20px;
+    list-style-type: none;
+}
+.b{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: darkturquoise;
+    color: white;
+    width: 85px;
+    height: 26px;
+    position: relative;
+    right:150px;
+
+}
+/*------ Recuadro de perfil----- */
+.main{
+    border: 2px groove gray;
+    background-color: white ;
+    height: 300px;
+    width: 400px;
+    font-family: 'Balsamiq Sans';
+}
+.profile{
+    height: 70px;
+    width: 400px;
+    background-color: #17a2b8;
+}
+.foto{
+    position: relative;
+    left:25px;
+    top: 25px;
+    padding:3px;
+    border-radius: 50%;
+    border: 2px solid #b8cfd2;
+    background-color: white;
+}
+.name{
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.city{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:6px;
+}
+.settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    margin-bottom: 15px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    margin-left: 25px;
+}
+.texto{
+    position: relative;
+    bottom: 10px;
+}
+/* ----ajuste de perfil y educacion */
+.cuadros{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px 0px 0px 390px;
+}
+/* ---Recuadro de estudios */
+.education{
+    position: relative;
+    bottom: 140px;
+    background-color: #333333;
+    border: 2px outset gray;
+    width: 400px;
+}
+h3{
+    color: white;
+    margin: 10px 0px 10px 20px;
+    font-size: 16px;
+}
+.estudios{
+    background-color: white;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.p1{
+    margin: 8px 0px 0px 20px;
+    font-size: 0.5cm;
+}
+.p2{
+    margin-left: 20px;
+    font-size: 0.37cm;
+    color:gray;
+}
+.p3{
+    margin-left: 20px;
+    font-size: 0.45cm;
+}
+/* -----Connecing request------- */
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.todd{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:40px
+}
+.todde{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.philk{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.phil{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:40px
+    
+}
+.Connection{
+    border: 2px outset gray;
+    width: 250px;
+}
+.btn2{
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.fa1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+}
+.f2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.fa2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+}
+/* -----Your Connection------ */
+.your{
+    border: 2px outset gray;
+    width: 250px;
+}
+.encabezado2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.btn3{
+    border-radius: 50%;
+    background-color: #cccccc;
+    width: 50px;
+    height: 25px;
+}
+.adrien{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.adriend{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.anne{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.annej{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.alayne{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.alaynet{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.arry{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.arryy{
+    border-radius: 50%;
+    border: 1px outset #b8cfd2;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+.more{
+    border: 2px outset #b8cfd2;
+    padding: 10px;
+}
+/* ----Acomodar todo----- */
+.acomodacion{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+.cuadros2{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:30px;
+    margin-top: 30px;
+}
